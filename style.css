@@ -1,0 +1,488 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Container for the entire heading */
+.heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; /* Ensures space between the left and right items */
+    background-color: rgb(252, 248, 248);
+    width: 100%;
+    height: 60px;
+    padding: 0 20px; /* Adds padding to the left and right of the container */
+    box-shadow: 2px 2px 2px 2px rgb(4, 83, 4);
+    position: fixed;
+}
+
+/* Style for the logo image */
+.heading img {
+    width: 100px;
+    height: 50px;
+    border-radius: 150px;
+    margin: 10px;
+    margin-right: 10px;
+}
+
+/* Style for the heading text */
+.heading h2 {
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(44, 171, 44);
+}
+
+/* General reset for the list style */
+.lists {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adds space between list items */
+    margin-left: auto;
+     /* Aligns the list to the right side */
+     font-size: 25PX;
+     font-weight: bold;
+}
+
+/* Style for each list item */
+.lists li {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Style for the login button */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-left: 20px; /* Adds space between the button and the list */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049;
+}
+#Home:hover{
+    
+    color: rgb(22, 11, 225);
+    
+}
+.Hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('https://m.media-amazon.com/images/I/61YFR8mbUuL._AC_UF1000,1000_QL80_.jpg');
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the background image */
+    height: 100vh; /* Adjust the height as per your need */
+    padding: 150px;
+    text-align: center;
+    color: rgb(77, 229, 16);
+    font-size: 40px;
+}
+#para{
+    margin: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+#btn1{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:white;
+    color: #45a049;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#btn2{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:white;
+    color: #45a049;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif; 
+}
+.icons {
+    font-size: 20px;
+    color: rgb(7, 23, 252);
+}
+
+h5 {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 29px;
+}
+h1{
+    text-align: center;
+    font-size:50px;
+    margin: 40px auto;
+}
+.cards{
+    display: grid;
+    grid-template-rows: max-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(252, 255, 252);
+}
+.card-1 img {
+    width: 200px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 20px;
+    
+}
+.card-1{
+    border: 2px solid black;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+}
+.card-2 img {
+    width: 200px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 20px;
+    
+}
+.card-2{
+    border: 2px solid black;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+}
+.card-3 img {
+    width: 200px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 20px;
+    
+}
+.card-3{
+    border: 2px solid black;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+}
+.card-4 img {
+    width: 200px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 20px;
+    
+}
+.card-4{
+    border: 2px solid black;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+}
+.card-5 img {
+    width: 200px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 20px;
+    
+}
+.card-5{
+    border: 2px solid black;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+}
+.card-6 img {
+    width: 200px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 20px;
+    
+}
+.card-6{
+    border: 2px solid black;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+}
+.card-7 img {
+    width: 200px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 20px;
+    
+}
+.card-7{
+    border: 2px solid black;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+}
+.card-8 img {
+    width: 200px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 20px;
+    
+}
+.card-8{
+    border: 2px solid black;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+}
+.footer{
+    background-color: lightgreen;
+    width: 100%;
+    height: 60vh;
+    position:relative;
+
+}
+h2{
+    text-align: center;
+}
+.address{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.address {
+    margin-bottom: 20px;
+}
+
+.address address {
+    font-style: normal;
+    line-height: 1.6;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+.contact i {
+    margin-right: 8px;
+    color: #fff;
+    font-size: 18px;
+}
+
+#map{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+iframe{
+    width: 100%;
+    height: 60vh;
+    flex-wrap: wrap;
+}
+/* Media query for tablets and larger phones (Portrait) */
+@media screen and (max-width: 768px) {
+    .heading {
+        flex-direction: column;
+        align-items: center; /* Aligns items to the center */
+        height: auto;
+        padding: 10px;
+    }
+
+    .heading img {
+        width: 80px;
+        height: 40px;
+    }
+
+    .heading h2 {
+        font-size: 24px;
+    }
+
+    .lists {
+        flex-direction: column;
+        font-size: 18px;
+    }
+
+    button {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100%; /* Full width for better layout on smaller screens */
+    }
+
+    .Hero {
+        padding: 100px 20px; /* Adjusted padding for smaller screens */
+        font-size: 32px;
+    }
+
+    h5 {
+        font-size: 25px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8 {
+        width: 90%; /* Adjusts card width for tablets */
+        height: auto;
+    }
+
+    iframe {
+        height: 50vh; /* Reduces height for tablets */
+    }
+}
+
+/* Media query for small devices (Mobile Landscape and Portrait) */
+@media screen and (max-width: 480px) {
+    .heading {
+        height: auto;
+        padding: 5px;
+        text-align: center; /* Center-aligns the header for smaller screens */
+    }
+
+    .heading img {
+        width: 60px;
+        height: 30px;
+    }
+
+    .heading h2 {
+        font-size: 20px;
+    }
+
+    .lists {
+        font-size: 16px;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px;
+        width: 100%;
+    }
+
+    .Hero {
+        padding: 50px 10px;
+        font-size: 24px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    #para {
+        font-size: 16px;
+    }
+
+    #btn1, #btn2 {
+        font-size: 16px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8 {
+        width: 100%;
+        margin: 10px;
+    }
+
+    iframe {
+        height: 40vh; /* Adjust iframe height for smaller screens */
+    }
+}
+
+/* Media query for very small devices (Small mobile) */
+@media screen and (max-width: 320px) {
+    .heading img {
+        width: 50px;
+        height: 25px;
+    }
+
+    .heading h2 {
+        font-size: 18px;
+    }
+
+    .lists {
+        font-size: 14px;
+        gap: 5px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .Hero {
+        padding: 20px 5px;
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    #para {
+        font-size: 14px;
+    }
+
+    #btn1, #btn2 {
+        font-size: 14px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8 {
+        width: 100%;
+        margin: 5px;
+    }
+
+    iframe {
+        height: 30vh; /* Further reduce iframe height for very small devices */
+    }
+}
+
+
